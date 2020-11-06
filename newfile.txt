@@ -1,0 +1,76 @@
+Last login: Fri Nov  6 12:05:53 on ttys000
+WenqianMacBookAir:~ liwenqian$ ls
+Applications	Downloads	Music		PycharmProjects
+Desktop		Library		Pictures	hello
+Documents	Movies		Public		learngit
+WenqianMacBookAir:~ liwenqian$ cd hello/
+WenqianMacBookAir:hello liwenqian$ ls
+hello-world
+WenqianMacBookAir:hello liwenqian$ cd hello-world/
+WenqianMacBookAir:hello-world liwenqian$ ls -ail
+total 40
+23170947 drwxr-xr-x   7 liwenqian  staff    224 Nov  6 13:44 .
+23170938 drwxr-xr-x   3 liwenqian  staff     96 Nov  6 13:15 ..
+23170948 drwxr-xr-x  13 liwenqian  staff    416 Nov  6 13:15 .git
+23172355 drwxr-xr-x   5 liwenqian  staff    160 Nov  6 13:44 502TeamRepo
+23171008 -rw-r--r--   1 liwenqian  staff     51 Nov  6 13:15 README.md
+23171009 -rw-r--r--   1 liwenqian  staff  10228 Nov  6 13:15 clock_tests-2.py
+23171010 -rw-r--r--   1 liwenqian  staff    757 Nov  6 13:15 palindrome.py
+WenqianMacBookAir:hello-world liwenqian$ rm -r 502TeamRepo
+override r--r--r--  liwenqian/staff for 502TeamRepo/.git/objects/e5/dd3c2cb5941009380722bc3d661412f8e0a435? y 
+override r--r--r--  liwenqian/staff for 502TeamRepo/.git/objects/29/48925e5e4e2776863944335a0b709775c85d82? y
+override r--r--r--  liwenqian/staff for 502TeamRepo/.git/objects/75/3bd02172c1a682500b72cf79e397dfff465fa9? y
+override r--r--r--  liwenqian/staff for 502TeamRepo/.git/objects/55/97624c9bf71b9d6d2c96f9d5d0d6b603377e4a? y
+override r--r--r--  liwenqian/staff for 502TeamRepo/.git/objects/2d/c4292dde3a7b9528ede8a972a0b353e2d8bb16? y
+override r--r--r--  liwenqian/staff for 502TeamRepo/.git/objects/13/2b00b4ad6937699067321895f3adf57855f5a0? y
+WenqianMacBookAir:hello-world liwenqian$ y
+-bash: y: command not found
+WenqianMacBookAir:hello-world liwenqian$ clear
+
+WenqianMacBookAir:hello-world liwenqian$ ls
+README.md		clock_tests-2.py	palindrome.py
+WenqianMacBookAir:hello-world liwenqian$ cd ..
+WenqianMacBookAir:hello liwenqian$ ls
+hello-world
+WenqianMacBookAir:hello liwenqian$ git clone https://github.com/garyklam/502TeamRepo.git
+Cloning into '502TeamRepo'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+WenqianMacBookAir:hello liwenqian$ ls
+502TeamRepo	hello-world
+WenqianMacBookAir:hello liwenqian$ cd 502TeamRepo
+WenqianMacBookAir:502TeamRepo liwenqian$ ls
+file_on_main_branch.txt	starting_file
+WenqianMacBookAir:502TeamRepo liwenqian$ git add newFile.txt
+fatal: pathspec 'newFile.txt' did not match any files
+WenqianMacBookAir:502TeamRepo liwenqian$ vim newFile.txt
+
+
+
+ add new file to main
+
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
